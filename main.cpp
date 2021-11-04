@@ -1,4 +1,4 @@
-#include <Arduino.h>
+#include <Arduino.h>%Thu vien arduino
 #include <SoftwareSerial.h>
 const byte RX = 2;
 const byte TX = 3;
