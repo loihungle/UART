@@ -16,8 +16,8 @@ long last = 0;
 String SendEsp = "";
 void setup() {
   // initialize serial:
-  Serial.begin(9600);
-  mySerial.begin(9600);
+  Serial.begin(115200);
+  mySerial.begin(115200);
   
   inputString.reserve(200);
   pinMode(LED_BUILTIN, OUTPUT);
